@@ -2,9 +2,10 @@
   "name": "poc-docker-microservices",
   "version": "1.0.0",
   "description": "Learning about Microservices with Docker and Node.Js",
-  "main": "index.js",
+  "main": "./src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/paulotc1999/POC-Docker-Microservices#readme",
   "dependencies": {
+    "express": "^4.18.1",
     "nodemailer": "^6.7.5"
   }
 }
